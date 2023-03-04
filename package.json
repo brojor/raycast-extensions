@@ -1,0 +1,18 @@
+{
+  "name": "json-to-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "json-to-js.mjs",
+  "module":"commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "json-to-js": "zx --install json-to-js.mjs"
+  },
+  "dependencies": {
+    "javascript-stringify": "^2.1.0"
+  }
+}
